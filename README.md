@@ -31,12 +31,12 @@ Legutóbb frissítve: 2019 december
 
 Részletes ereményekért nézd meg a file-okat a [results](https://github.com/atommaki/hungarian-web-ipv6/tree/master/results) mappában, formátum:
 ```
-n;site;yes/no;yes/no;ns4;ns6
+n;site;yes/no;yes/no;ns;ns6
 ```
  * n: a site helye a top100-as listán
  * site: a site neve
  * első yes/no: az oldalnak van/nincs IPv6 címe
  * második yes/no: az oldaletöltés működik IPv6-on
- * ns4: bejegyzett IPv4 névszerverek száma
+ * ns: az összes bejegyzett névszerverek száma
  * ns6: bejegyzett IPv6 névszerverek száma
 
