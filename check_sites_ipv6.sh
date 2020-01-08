@@ -12,7 +12,7 @@ domain_exists() {
 }
 
 page_download_on_ipv6() {
-    if wget --quiet -6 http://$1 -O /dev/null
+    if wget --connect-timeout=20 --tries=5 --quiet -6 http://$1 -O /dev/null
         then return 0
         else return 1
     fi
