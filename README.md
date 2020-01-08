@@ -6,7 +6,7 @@ Három dolgot tesztelek:
   * Sikerül-e az oldalt letölteni IPv6-on?
   * Van-e a domain-nek IPv6-on elérhető névszervere?
 
-A top lista adatait a http://dkt.hu -ról vettem (domestic, all platfroms).
+A top lista adatait a http://dkt.hu -ról vettem (domestic, all platfroms), minden havi eredmény az előző havi toplistán alapul.
 
 # Jelenlegi eredmény
 
