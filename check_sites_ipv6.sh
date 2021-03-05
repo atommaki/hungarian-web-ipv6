@@ -64,7 +64,7 @@ for SITE in $(cat ${SITE_LIST_FILE}); do
         ipv6_ns_n=$[ipv6_ns_n+1]
     fi
     if ! domain_exists $SITE; then
-        "Warning! No IPv4 address for $SITE"
+        echo "Warning! No IPv4 address for $SITE" >&2
     fi
     if has_ipv6_address $SITE; then
         ipv6_address=yes
