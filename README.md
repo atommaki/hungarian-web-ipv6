@@ -10,22 +10,22 @@ A top lista adatait a http://dkt.hu -ról vettem (domestic, all platfroms), mind
 
 # Jelenlegi eredmény
 
-Legutóbb frissítve: 2021 április
+Legutóbb frissítve: 2021 május
 
   * A magyar **top20** website közül:
-    * IPv6 címe van: 45% (9)
-    * Oldal letöltés működik IPv6-on: 45% (9)
+    * IPv6 címe van: 50% (10)
+    * Oldal letöltés működik IPv6-on: 50% (10)
     * DNS szerverének van IPv6 címe: 65% (13)
 
   * A magyar **top100** website közül:
-    * IPv6 címe van: 34% (34)
-    * Oldal letöltés működik IPv6-on: 34% (34)
-    * DNS szerverének van IPv6 címe: 60% (60)
+    * IPv6 címe van: 32% (32)
+    * Oldal letöltés működik IPv6-on: 32% (32)
+    * DNS szerverének van IPv6 címe: 58% (58)
 
   * A magyar **top500** website közül:
-    * IPv6 címe van: 22% (112)
-    * Oldal letöltés működik IPv6-on: 21% (106)
-    * DNS szerverének van IPv6 címe: 55% (276)
+    * IPv6 címe van: 23% (115)
+    * Oldal letöltés működik IPv6-on: 22% (111)
+    * DNS szerverének van IPv6 címe: 54% (273)
 
 # Részletek
 
