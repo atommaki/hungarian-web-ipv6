@@ -1,34 +1,7 @@
 #!/bin/bash
 
-has_ipv6_address() {
-    if host -t AAAA $1 | grep -q 'has no AAAA record'
-        then return 1
-        else return 0
-    fi
-}
+. $(dirname $0)/funcs.sh
 
-domain_exists() {
-    host $1 > /dev/null 2>&1
-}
-
-page_download_on_ipv6() {
-    if wget --connect-timeout=20 --tries=5 --quiet -6 http://$1 -O /dev/null
-        then return 0
-        else return 1
-    fi
-}
-
-ns_with_ipv6_address() {
-    local ns_with_ipv6_address=0
-    local all_ns=0
-    for NS in $(host -t NS $1 | awk '{print $NF}'); do
-        all_ns=$[all_ns+1]
-        if has_ipv6_address $NS; then
-            ns_with_ipv6_address=$[ns_with_ipv6_address+1]
-        fi
-    done
-    echo "${all_ns};${ns_with_ipv6_address}"
-}
 
 
 if [ -z "$1" ] || [ ! -f "$1" ]; then

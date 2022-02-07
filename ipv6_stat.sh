@@ -7,31 +7,7 @@ fi
 
 RESULT_CSV="$1"
 
-get_csv_block() {
-    awk -v n=$1 -F";" '$1 >= 1 && $1 <= n {print}' $RESULT_CSV
-}
-
-count_yes(){
-    awk -v n=$1 -F";" 'BEGIN {s=0} $n == "yes" { s=s+1 } END {print s}'
-}
-
-count_non_zero_num(){
-    awk -v n=$1 -F";" 'BEGIN {s=0} $n > 0 { s=s+1 } END {print s}'
-}
-
-
-count_IPv6_address() {
-    count_yes 3
-}
-
-count_IPv6_working_download() {
-    count_yes 4
-}
-
-count_IPv6_DNS_domain() {
-    count_non_zero_num 6
-}
-
+. $(dirname $0)/funcs.sh
 
 
 for i in 20 100 500; do
