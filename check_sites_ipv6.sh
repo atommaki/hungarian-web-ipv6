@@ -54,6 +54,7 @@ for SITE in $(cat ${SITE_LIST_FILE}); do
     fi
 done
 
+echo
 echo "All sites:                        $i"
 echo "Sites with IPv6 address:          $ipv6_address_n"
 echo "Sites with working IPv6 download: $ipv6_download_n"
