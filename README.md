@@ -1,14 +1,19 @@
 # Magyar web IPv6 használat
 
-Hány weboldalnak van IPv6 címe a top 20/100/500 magyar oldalak közül?
-Három dolgot tesztelek:
+Hány weboldal támogat IPv6-ot a top 20/100/500 magyar oldalak közül?
+
+A top 20/100/500 oldalak mindegyikén ellenőrizzük:
   * Van-e az oldalnak IPv6 címe a DNS szerint?
   * Sikerül-e az oldalt letölteni IPv6-on?
   * Van-e a domain-nek IPv6-on elérhető névszervere?
 
 A top lista adatait a http://dkt.hu -ról vettem (domestic, all platfroms), minden havi eredmény az előző havi toplistán alapul.
 
-# Jelenlegi eredmény
+# IPv6 támogatás időbeni változása
+
+![timeline.png](results/timeline.png)
+
+# Legutóbbi eredmény
 
 Legutóbb frissítve: 2022 december
 
