@@ -7,7 +7,7 @@ A top 20/100/500 oldalak mindegyikén ellenőrizzük:
   * Sikerül-e az oldalt letölteni IPv6-on?
   * Van-e a domain-nek IPv6-on elérhető névszervere?
 
-A top lista adatait a http://dkt.hu -ról vettem (domestic, all platfroms), minden havi eredmény az előző havi toplistán alapul.
+A top lista adatai a Gemius Audience-től származnak (gemius.com), minden havi eredmény az előző havi toplistán alapul.
 
 # IPv6 támogatás időbeni változása
 
