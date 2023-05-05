@@ -15,22 +15,22 @@ A top lista adatai a Gemius Audience-től származnak (gemius.com), minden havi 
 
 # Legutóbbi eredmény
 
-Legutóbb frissítve: 2023 január
+Legutóbb frissítve: 2023 május
 
   * A magyar **top20** website közül:
-    * IPv6 címe van: 45% (9)
-    * Oldal letöltés működik IPv6-on: 45% (9)
-    * DNS szerverének van IPv6 címe: 75% (15)
+    * IPv6 címe van: 50% (10)
+    * Oldal letöltés működik IPv6-on: 50% (10)
+    * DNS szerverének van IPv6 címe: 80% (16)
 
   * A magyar **top100** website közül:
-    * IPv6 címe van: 32% (32)
-    * Oldal letöltés működik IPv6-on: 31% (31)
-    * DNS szerverének van IPv6 címe: 66% (66)
+    * IPv6 címe van: 37% (37)
+    * Oldal letöltés működik IPv6-on: 35% (35)
+    * DNS szerverének van IPv6 címe: 65% (65)
 
   * A magyar **top500** website közül:
-    * IPv6 címe van: 26% (133)
-    * Oldal letöltés működik IPv6-on: 24% (124)
-    * DNS szerverének van IPv6 címe: 61% (305)
+    * IPv6 címe van: 28% (144)
+    * Oldal letöltés működik IPv6-on: 27% (138)
+    * DNS szerverének van IPv6 címe: 61% (309)
 
 # Részletek
 
